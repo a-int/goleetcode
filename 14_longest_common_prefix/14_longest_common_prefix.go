@@ -24,5 +24,5 @@ func longestCommonPrefix(strs []string) string {
 		}
 		stop += 1
 	}
-	return ""
+	return minStr[:stop-1]
 }
